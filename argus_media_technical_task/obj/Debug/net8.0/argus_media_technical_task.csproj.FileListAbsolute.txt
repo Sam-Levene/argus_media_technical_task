@@ -111,3 +111,4 @@ C:\Users\samle\Documents\projects\argus_media_technical_task\argus_media_technic
 C:\Users\samle\Documents\projects\argus_media_technical_task\argus_media_technical_task\obj\Debug\net8.0\argus_media_technical_task.pdb
 C:\Users\samle\Documents\projects\argus_media_technical_task\argus_media_technical_task\obj\Debug\net8.0\argus_media_technical_task.genruntimeconfig.cache
 C:\Users\samle\Documents\projects\argus_media_technical_task\argus_media_technical_task\obj\Debug\net8.0\ref\argus_media_technical_task.dll
+C:\Users\samle\Documents\projects\argus_media_technical_task\argus_media_technical_task\obj\Debug\net8.0\argus_media_technical_task.sourcelink.json

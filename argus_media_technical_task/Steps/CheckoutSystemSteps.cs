@@ -58,7 +58,7 @@ public class CheckoutSystemSteps()
     [Then(@"the First total should be correct")]
     public void ThenTheFirstTotalShouldBeCorrect()
     {
-        Assert.Equal(55.40m, checkoutSystem.RequestFinalBill());
+        Assert.Equal(58.40m, checkoutSystem.RequestFinalBill());
     }
 
     [Then("the first interim total should be correct")]
@@ -70,18 +70,18 @@ public class CheckoutSystemSteps()
     [Then("the second interim total should be correct")]
     public void ThenTheSecondInterimTotalShouldBeCorrect()
     {
-        Assert.Equal(55.40m, checkoutSystem.RequestFinalBill());
+        Assert.Equal(58.40m, checkoutSystem.RequestFinalBill());
     }
 
     [Then("the Second total should be correct")]
     public void ThenTheSecondTotalShouldBeCorrect()
     {
-        Assert.Equal(43.70m, checkoutSystem.RequestFinalBill());
+        Assert.Equal(45.20m, checkoutSystem.RequestFinalBill());
     }
 
     [Then("the Third total should be correct")]
     public void ThenTheThirdTotalShouldBeCorrect()
     {
-        Assert.Equal(69.25m, checkoutSystem.RequestFinalBill());
+        Assert.Equal(73.00m, checkoutSystem.RequestFinalBill());
     }
 }

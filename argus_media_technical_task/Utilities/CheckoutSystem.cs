@@ -27,7 +27,7 @@ public class CheckoutSystem {
     }
 
     public void UpdateDrinks(int numberOfNewDrinks, DateTime timeOfDay) {
-         if (timeOfDay > happyHour) {
+         if (timeOfDay < happyHour) {
             decimal interimDrinksCost = drinksCost - (drinksCost * 3 / 10);
             updatedDrinksCost += interimDrinksCost * numberOfNewDrinks;
         } else {
@@ -41,7 +41,7 @@ public class CheckoutSystem {
 
     public void CalculateDrinks(int numberOfDrinks, DateTime timeOfDay) {
         
-        if (timeOfDay > happyHour) {
+        if (timeOfDay < happyHour) {
             decimal interimDrinksCost = drinksCost - (drinksCost * 3 / 10);
             updatedDrinksCost = interimDrinksCost * numberOfDrinks;
         } else {
