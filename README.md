@@ -34,6 +34,8 @@ Once you have built the suite, you can either run it through using `dotnet test`
 
 - I have assumed the number of people on these scenarios don't matter, as it's the number of Starters, Mains and Drinks that they order that matters for this task, but if this is not correct, then my tests will need to be adjusted for that.
 
+- I have assumed that the time of day can only be HH:mm and not HH:mm:ss or HH:mm:ss.sss (i.e: 19:00 and not 19:00:00 or 19:00:00.000) and so cannot currently handle seconds or milliseconds. If this is a problem, it should be pretty easy to fix, but will require a change in the tests to adjust for this.
+
 ### Issues:
 
 - I could not get the code to output the values of the breakdown of the cost of the Starters, Mains and Drinks along with the Service Charge or Final Bill using any kind of output unless I added a breakpoint into the code and then ran the "Debug Test" option in the Test Explorer.
