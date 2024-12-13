@@ -26,7 +26,7 @@ dotnet clean
 dotnet build 
 ```
 
-Once you have built the suite, you can either run it through using `dotnet test` but note the Issues section on this.
+Once you have built the suite, you can either run it through using `dotnet test` or run it through the Test Explorer, but please note the **Issues** section on this.
 
 ### Assumptions:
 
